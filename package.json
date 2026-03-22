@@ -1,0 +1,38 @@
+{
+  "name": "ai-contract-observer",
+  "version": "0.1.0",
+  "description": "A lightweight observability layer for AI systems with structured request and response logging.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/basic-usage.js"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "observability",
+    "logging",
+    "tracing",
+    "ai systems",
+    "ai infrastructure",
+    "structured outputs",
+    "inference"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonhimpfen/ai-contract-observer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brandonhimpfen/ai-contract-observer/issues"
+  },
+  "homepage": "https://github.com/brandonhimpfen/ai-contract-observer#readme",
+  "author": "Brandon Himpfen",
+  "license": "MIT"
+}
